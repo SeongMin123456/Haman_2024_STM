@@ -1,0 +1,5 @@
+1732157085031	Rename resource 'test01'
+1732234186007	Rename resource 'test4-ADC'
+1732234200068	Rename resource 'test4-ADC-DMA'
+1732234211292	Rename resource 'test4-ADC-intr'
+1732244058386	Delete resource 'test005-LCD-1602/Core/Src/LCD1602.c'

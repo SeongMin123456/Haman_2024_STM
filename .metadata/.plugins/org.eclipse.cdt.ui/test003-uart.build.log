@@ -1,0 +1,7 @@
+11:57:56 **** Build of configuration Debug for project test003-uart ****
+make -j24 all 
+make: *** No rule to make target '../Core/Src/myLib.c', needed by 'Core/Src/myLib.o'.  Stop.
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+
+11:57:56 Build Failed. 1 errors, 0 warnings. (took 178ms)
+

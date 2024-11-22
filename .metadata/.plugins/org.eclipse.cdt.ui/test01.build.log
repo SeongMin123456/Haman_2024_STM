@@ -1,17 +1,10 @@
-16:43:21 **** Incremental Build of configuration Debug for project test01 ****
+15:57:36 **** Incremental Build of configuration Debug for project test01 ****
 make -j24 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "test01.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test01\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test01.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: test01.elf
- 
 arm-none-eabi-size  test01.elf 
-arm-none-eabi-objdump -h -S test01.elf  > "test01.list"
    text	   data	    bss	    dec	    hex	filename
    8104	     24	   1648	   9776	   2630	test01.elf
 Finished building: default.size.stdout
  
-Finished building: test01.list
- 
 
-16:43:21 Build Finished. 0 errors, 0 warnings. (took 536ms)
+15:57:36 Build Finished. 0 errors, 0 warnings. (took 235ms)
 
