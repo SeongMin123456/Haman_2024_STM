@@ -129,11 +129,8 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  double tm = ((240.0 / 4096.0) * val[0]) - 40;  // float 연산을 위해 .0을 붙임. 없으면 정수로 인식
-	  double hm = (100.0 / 4096.0) * val[1];
-
-	  sprintf(ch_val0,"Temp : %-6.1f",tm); // 왼쪽 정렬은 %-04d 로 작성
-	  sprintf(ch_val1,"humi : %-4.1f",hm);
+	  sprintf(ch_val0,"%-04d",val[0]); // 왼쪽 정렬은 %-04d 로 작성
+	  sprintf(ch_val1,"%-04d",val[1]);
 	  lcd_printEx(ch_val0,0);
 	  HAL_Delay(100);
 	  lcd_printEx(ch_val1,1);

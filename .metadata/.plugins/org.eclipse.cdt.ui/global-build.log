@@ -5346,3 +5346,152 @@ arm-none-eabi-size  test005-LCD-ADC.elf
   24824	    112	   2312	  27248	   6a70	test005-LCD-ADC.elf
 Finished building: default.size.stdout
  
+16:32:00 **** Incremental Build of configuration Debug for project test005-LCD-ADC ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:112:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  112 |   HAL_ADC_Start_DMA(&hadc1, val, 2);
+      |                             ^~~
+      |                             |
+      |                             short unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'short unsigned int *'
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:115:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  115 |   ProgramStart("LCD (1602)");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:116:5: warning: implicit declaration of function 'i2c_init' [-Wimplicit-function-declaration]
+  116 |     i2c_init(&hi2c2);
+      |     ^~~~~~~~
+../Core/Src/main.c:117:5: warning: implicit declaration of function 'i2c_scan' [-Wimplicit-function-declaration]
+  117 |     i2c_scan();
+      |     ^~~~~~~~
+../Core/Src/main.c:119:5: warning: implicit declaration of function 'lcd_init' [-Wimplicit-function-declaration]
+  119 |     lcd_init();
+      |     ^~~~~~~~
+../Core/Src/main.c:132:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  132 |           sprintf(ch_val0,"%-04d",val[0]); // 왼쪽 정렬은 %-04d 로 작성
+      |           ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:132:11: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  132 |           sprintf(ch_val0,"%-04d",val[0]); // 왼쪽 정렬은 %-04d 로 작성
+      |           ^~~~~~~
+../Core/Src/main.c:132:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:132:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  132 |           sprintf(ch_val0,"%-04d",val[0]); // 왼쪽 정렬은 %-04d 로 작성
+      |                   ^~~~~~~
+      |                   |
+      |                   unsigned char *
+../Core/Src/main.c:132:19: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:132:27: warning: '0' flag ignored with '-' flag in gnu_printf format [-Wformat=]
+  132 |           sprintf(ch_val0,"%-04d",val[0]); // 왼쪽 정렬은 %-04d 로 작성
+      |                           ^~~~~~~
+../Core/Src/main.c:133:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  133 |           sprintf(ch_val1,"%-04d",val[1]);
+      |                   ^~~~~~~
+      |                   |
+      |                   unsigned char *
+../Core/Src/main.c:133:19: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:133:27: warning: '0' flag ignored with '-' flag in gnu_printf format [-Wformat=]
+  133 |           sprintf(ch_val1,"%-04d",val[1]);
+      |                           ^~~~~~~
+../Core/Src/main.c:134:11: warning: implicit declaration of function 'lcd_printEx' [-Wimplicit-function-declaration]
+  134 |           lcd_printEx(ch_val0,0);
+      |           ^~~~~~~~~~~
+arm-none-eabi-gcc -o "test005-LCD-ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test005-LCD-ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test005-LCD-ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test005-LCD-ADC.elf
+ 
+arm-none-eabi-size  test005-LCD-ADC.elf 
+arm-none-eabi-objdump -h -S test005-LCD-ADC.elf  > "test005-LCD-ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  24824	    112	   2312	  27248	   6a70	test005-LCD-ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: test005-LCD-ADC.list
+ 
+16:45:13 **** Incremental Build of configuration Debug for project test005-LCD-ADC ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:112:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  112 |   HAL_ADC_Start_DMA(&hadc1, val, 2);
+      |                             ^~~
+      |                             |
+      |                             short unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'short unsigned int *'
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:115:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  115 |   ProgramStart("LCD (1602)");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:116:5: warning: implicit declaration of function 'i2c_init' [-Wimplicit-function-declaration]
+  116 |     i2c_init(&hi2c2);
+      |     ^~~~~~~~
+../Core/Src/main.c:117:5: warning: implicit declaration of function 'i2c_scan' [-Wimplicit-function-declaration]
+  117 |     i2c_scan();
+      |     ^~~~~~~~
+../Core/Src/main.c:119:5: warning: implicit declaration of function 'lcd_init' [-Wimplicit-function-declaration]
+  119 |     lcd_init();
+      |     ^~~~~~~~
+../Core/Src/main.c:135:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  135 |           sprintf(ch_val0,"Temp : %-6.1f",tm); // 왼쪽 정렬은 %-04d 로 작성
+      |           ^~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:135:11: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  135 |           sprintf(ch_val0,"Temp : %-6.1f",tm); // 왼쪽 정렬은 %-04d 로 작성
+      |           ^~~~~~~
+../Core/Src/main.c:135:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:135:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  135 |           sprintf(ch_val0,"Temp : %-6.1f",tm); // 왼쪽 정렬은 %-04d 로 작성
+      |                   ^~~~~~~
+      |                   |
+      |                   unsigned char *
+../Core/Src/main.c:135:19: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:136:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  136 |           sprintf(ch_val1,"humi : %-4.1f",hm);
+      |                   ^~~~~~~
+      |                   |
+      |                   unsigned char *
+../Core/Src/main.c:136:19: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:137:11: warning: implicit declaration of function 'lcd_printEx' [-Wimplicit-function-declaration]
+  137 |           lcd_printEx(ch_val0,0);
+      |           ^~~~~~~~~~~
+arm-none-eabi-gcc -o "test005-LCD-ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test005-LCD-ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test005-LCD-ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test005-LCD-ADC.elf
+ 
+arm-none-eabi-size  test005-LCD-ADC.elf 
+arm-none-eabi-objdump -h -S test005-LCD-ADC.elf  > "test005-LCD-ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  26416	    112	   2312	  28840	   70a8	test005-LCD-ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: test005-LCD-ADC.list
+ 
+16:48:44 **** Incremental Build of configuration Debug for project test005-LCD-ADC ****
+make -j24 all 
+arm-none-eabi-gcc -o "test005-LCD-ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test005-LCD-ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test005-LCD-ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test005-LCD-ADC.elf
+ 
+arm-none-eabi-size  test005-LCD-ADC.elf 
+arm-none-eabi-objdump -h -S test005-LCD-ADC.elf  > "test005-LCD-ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  42456	    476	   2308	  45240	   b0b8	test005-LCD-ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: test005-LCD-ADC.list
+ 
