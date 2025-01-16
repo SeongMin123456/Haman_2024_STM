@@ -1,16 +1,10 @@
-16:48:44 **** Incremental Build of configuration Debug for project test005-LCD-ADC ****
+11:10:46 **** Incremental Build of configuration Debug for project test005-LCD-ADC ****
 make -j24 all 
-arm-none-eabi-gcc -o "test005-LCD-ADC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test005-LCD-ADC\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test005-LCD-ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: test005-LCD-ADC.elf
- 
 arm-none-eabi-size  test005-LCD-ADC.elf 
-arm-none-eabi-objdump -h -S test005-LCD-ADC.elf  > "test005-LCD-ADC.list"
    text	   data	    bss	    dec	    hex	filename
-  42456	    476	   2308	  45240	   b0b8	test005-LCD-ADC.elf
+  43232	    476	   2308	  46016	   b3c0	test005-LCD-ADC.elf
 Finished building: default.size.stdout
  
-Finished building: test005-LCD-ADC.list
- 
 
-16:48:45 Build Finished. 0 errors, 0 warnings. (took 482ms)
+11:10:47 Build Finished. 0 errors, 0 warnings. (took 282ms)
 

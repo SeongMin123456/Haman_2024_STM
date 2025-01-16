@@ -1,40 +1,10 @@
-14:37:04 **** Incremental Build of configuration Debug for project test006-LCD-UART ****
+11:10:47 **** Incremental Build of configuration Debug for project test006-LCD-UART ****
 make -j24 all 
-arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/LCD1602.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/LCD1602.d" -MT"Core/Src/LCD1602.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/LCD1602.o"
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c: In function 'lcd_printEx2':
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:72:41: warning: implicit declaration of function 'lcd_print'; did you mean 'lcd_printEx2'? [-Wimplicit-function-declaration]
-   72 |                 lcd_command (0x80);     lcd_print(sbuf);
-      |                                         ^~~~~~~~~
-      |                                         lcd_printEx2
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:75:17: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
-   75 |                 strcpy(sbuf, str);
-      |                 ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:10:1: note: include '<string.h>' or provide a declaration of 'strcpy'
-    9 | #include <stdio.h>
-  +++ |+#include <string.h>
-   10 | 
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:75:17: warning: incompatible implicit declaration of built-in function 'strcpy' [-Wbuiltin-declaration-mismatch]
-   75 |                 strcpy(sbuf, str);
-      |                 ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:75:17: note: include '<string.h>' or provide a declaration of 'strcpy'
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c: At top level:
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:80:6: warning: conflicting types for 'lcd_print'; have 'void(char *)'
-   80 | void lcd_print(char *str)
-      |      ^~~~~~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:72:41: note: previous implicit declaration of 'lcd_print' with type 'void(char *)'
-   72 |                 lcd_command (0x80);     lcd_print(sbuf);
-      |                                         ^~~~~~~~~
-arm-none-eabi-gcc -o "test006-LCD-UART.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test006-LCD-UART\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test006-LCD-UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: test006-LCD-UART.elf
- 
 arm-none-eabi-size  test006-LCD-UART.elf 
-arm-none-eabi-objdump -h -S test006-LCD-UART.elf  > "test006-LCD-UART.list"
    text	   data	    bss	    dec	    hex	filename
-  21892	    112	   2064	  24068	   5e04	test006-LCD-UART.elf
+  21708	    112	   2064	  23884	   5d4c	test006-LCD-UART.elf
 Finished building: default.size.stdout
  
-Finished building: test006-LCD-UART.list
- 
 
-14:37:05 Build Finished. 0 errors, 4 warnings. (took 632ms)
+11:10:47 Build Finished. 0 errors, 0 warnings. (took 228ms)
 

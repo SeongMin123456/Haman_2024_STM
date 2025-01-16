@@ -425,7 +425,7 @@ int GetBuffer(char *bb)
 	int ret = 0;
  8000584:	2300      	movs	r3, #0
  8000586:	60fb      	str	r3, [r7, #12]
-	tail = MAX_BUF - huart2.hdmarx->Instance->NDTR;
+	tail = MAX_BUF - huart2.hdmarx->Instance->NDTR;  // 남은 레지스터 메모리의 수
  8000588:	4b2d      	ldr	r3, [pc, #180]	; (8000640 <GetBuffer+0xc4>)
  800058a:	6bdb      	ldr	r3, [r3, #60]	; 0x3c
  800058c:	681b      	ldr	r3, [r3, #0]

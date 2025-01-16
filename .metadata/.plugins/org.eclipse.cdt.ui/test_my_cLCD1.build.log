@@ -1,92 +1,10 @@
-10:36:06 **** Incremental Build of configuration Debug for project test_my_cLCD1 ****
+11:10:49 **** Incremental Build of configuration Debug for project test_my_cLCD1 ****
 make -j24 all 
-arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/LCD1602.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/LCD1602.d" -MT"Core/Src/LCD1602.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/LCD1602.o"
-arm-none-eabi-gcc "C:/Users/user/source/repos/STM32/myLib/myLib.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/myLib.d" -MT"Core/Src/myLib.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/myLib.o"
-C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_getchar':
-C:/Users/user/source/repos/STM32/myLib/myLib.c:13:41: warning: passing argument 2 of 'HAL_UART_Receive' from incompatible pointer type [-Wincompatible-pointer-types]
-   13 |         while(HAL_UART_Receive(&huart2, &ch, 1, 10/*ms*/) != HAL_OK);
-      |                                         ^~~
-      |                                         |
-      |                                         int *
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from C:/Users/user/source/repos/STM32/myLib/myLib.c:7:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:746:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'int *'
-  746 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-      |                                                               ~~~~~~~~~^~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c: In function 'i2c_scan':
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:84:25: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-   84 |                         printf("  %02x ", addr);
-      |                         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-    8 | #include "main.h"
-  +++ |+#include <stdio.h>
-    9 | 
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:84:25: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-   84 |                         printf("  %02x ", addr);
-      |                         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/myLib.c: In function '__io_putchar':
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:84:25: note: include '<stdio.h>' or provide a declaration of 'printf'
-C:/Users/user/source/repos/STM32/myLib/myLib.c:21:36: warning: passing argument 2 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
-   21 |         HAL_UART_Transmit(&huart2, &ch, 1, 10/*ms*/);
-      |                                    ^~~
-      |                                    |
-      |                                    int *
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:88:25: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-   88 |                         printf("  .  ");
-      |                         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:88:25: note: include '<stdio.h>' or provide a declaration of 'printf'
-In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
-                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from C:/Users/user/source/repos/STM32/myLib/myLib.c:7:
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'int *'
-  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
-      |                                                                ~~~~~~~~~~~~~~~^~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:90:41: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-   90 |                 if((addr % 16) == 15)   printf("\r\n");
-      |                                         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/LCD1602.c:90:41: note: include '<stdio.h>' or provide a declaration of 'printf'
-C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'cls':
-C:/Users/user/source/repos/STM32/myLib/myLib.c:30:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-   30 |         printf("\033[2J");
-      |         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/myLib.c:8:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-    7 | #include "main.h"
-  +++ |+#include <stdio.h>
-    8 | 
-C:/Users/user/source/repos/STM32/myLib/myLib.c:30:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-   30 |         printf("\033[2J");
-      |         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/myLib.c:30:9: note: include '<stdio.h>' or provide a declaration of 'printf'
-C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'cursor':
-C:/Users/user/source/repos/STM32/myLib/myLib.c:35:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
-   35 |         sprintf(buf, "\033[%d;%dH", y, x);
-      |         ^~~~~~~
-C:/Users/user/source/repos/STM32/myLib/myLib.c:35:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-C:/Users/user/source/repos/STM32/myLib/myLib.c:35:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
-C:/Users/user/source/repos/STM32/myLib/myLib.c:35:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
-C:/Users/user/source/repos/STM32/myLib/myLib.c:36:9: warning: implicit declaration of function 'puts' [-Wimplicit-function-declaration]
-   36 |         puts(buf);
-      |         ^~~~
-C:/Users/user/source/repos/STM32/myLib/myLib.c:36:9: note: include '<stdio.h>' or provide a declaration of 'puts'
-C:/Users/user/source/repos/STM32/myLib/myLib.c: In function 'ProgramStart':
-C:/Users/user/source/repos/STM32/myLib/myLib.c:43:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-   43 |         printf("program Name - %s\r\n", str);
-      |         ^~~~~~
-C:/Users/user/source/repos/STM32/myLib/myLib.c:43:9: note: include '<stdio.h>' or provide a declaration of 'printf'
-arm-none-eabi-gcc -o "test_my_cLCD1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test_my_cLCD1\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_my_cLCD1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: test_my_cLCD1.elf
- 
 arm-none-eabi-size  test_my_cLCD1.elf 
-arm-none-eabi-objdump -h -S test_my_cLCD1.elf  > "test_my_cLCD1.list"
    text	   data	    bss	    dec	    hex	filename
-  18608	    128	   2072	  20808	   5148	test_my_cLCD1.elf
+  19032	    128	   2072	  21232	   52f0	test_my_cLCD1.elf
 Finished building: default.size.stdout
  
-Finished building: test_my_cLCD1.list
- 
 
-10:36:07 Build Finished. 0 errors, 12 warnings. (took 587ms)
+11:10:49 Build Finished. 0 errors, 0 warnings. (took 231ms)
 

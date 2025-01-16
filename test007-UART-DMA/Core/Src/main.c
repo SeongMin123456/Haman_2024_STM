@@ -64,7 +64,7 @@ int head=0, tail=0;
 int GetBuffer(char *bb)
 {
 	int ret = 0;
-	tail = MAX_BUF - huart2.hdmarx->Instance->NDTR;
+	tail = MAX_BUF - huart2.hdmarx->Instance->NDTR;  // 남은 레지스터 메모리의 수
 	if(head == tail)	return 0;
 	if(head < tail)	// memory enough
 	{

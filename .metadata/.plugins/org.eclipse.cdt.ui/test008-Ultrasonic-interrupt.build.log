@@ -1,0 +1,36 @@
+12:52:03 **** Incremental Build of configuration Debug for project test008-Ultrasonic-interrupt ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:84:9: warning: implicit declaration of function 'Trigger' [-Wimplicit-function-declaration]
+   84 |         Trigger();
+      |         ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  122 |   ProgramStart("Ultrasonic Test - GPIO Interrupt");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:136:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  136 |         printf("Distance : %f\r\n", distance);
+      |         ^~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   24 | #include "C:\Users\user\source\repos\STM32\myLib\ultrasonic.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:136:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  136 |         printf("Distance : %f\r\n", distance);
+      |         ^~~~~~
+../Core/Src/main.c:136:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "test008-Ultrasonic-interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test008-Ultrasonic-interrupt\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test008-Ultrasonic-interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test008-Ultrasonic-interrupt.elf
+ 
+arm-none-eabi-size  test008-Ultrasonic-interrupt.elf 
+arm-none-eabi-objdump -h -S test008-Ultrasonic-interrupt.elf  > "test008-Ultrasonic-interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+  35576	    476	   2136	  38188	   952c	test008-Ultrasonic-interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: test008-Ultrasonic-interrupt.list
+ 
+
+12:52:04 Build Finished. 0 errors, 4 warnings. (took 585ms)
+
