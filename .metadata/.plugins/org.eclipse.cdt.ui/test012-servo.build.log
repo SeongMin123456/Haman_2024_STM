@@ -1,0 +1,16 @@
+14:19:34 **** Incremental Build of configuration Debug for project test012-servo ****
+make -j24 all 
+arm-none-eabi-gcc -o "test012-servo.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test012-servo\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test012-servo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test012-servo.elf
+ 
+arm-none-eabi-size  test012-servo.elf 
+arm-none-eabi-objdump -h -S test012-servo.elf  > "test012-servo.list"
+   text	   data	    bss	    dec	    hex	filename
+  21552	    112	   2048	  23712	   5ca0	test012-servo.elf
+Finished building: default.size.stdout
+ 
+Finished building: test012-servo.list
+ 
+
+14:19:34 Build Finished. 0 errors, 0 warnings. (took 486ms)
+

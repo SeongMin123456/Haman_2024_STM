@@ -1,0 +1,16 @@
+14:36:01 **** Incremental Build of configuration Debug for project test013-Utrasonic_Servo ****
+make -j24 all 
+arm-none-eabi-gcc -o "test013-Utrasonic_Servo.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test013-Utrasonic_Servo\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test013-Utrasonic_Servo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test013-Utrasonic_Servo.elf
+ 
+arm-none-eabi-size  test013-Utrasonic_Servo.elf 
+arm-none-eabi-objdump -h -S test013-Utrasonic_Servo.elf  > "test013-Utrasonic_Servo.list"
+   text	   data	    bss	    dec	    hex	filename
+  37280	    476	   2208	  39964	   9c1c	test013-Utrasonic_Servo.elf
+Finished building: default.size.stdout
+ 
+Finished building: test013-Utrasonic_Servo.list
+ 
+
+14:36:01 Build Finished. 0 errors, 0 warnings. (took 485ms)
+
