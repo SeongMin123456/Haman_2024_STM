@@ -92,18 +92,18 @@ int main(void)
 
   ProgramStart("Step Motor Control");
 
-  int cir = 0;
-  int cnt = 0;
+  float cir = 0;
+  float cnt = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  printf("회전각 : "); scanf("%d",&cir);
+	  printf("회전각 : "); scanf("%f",&cir);
 
-	  cir = cir * 5;
-	  printf("cir: %d\r\n", cir);
+	  cir = cir * 5.625;
+	  printf("cir: %.0f\r\n", cir);
 
 	  for(cnt = 0; cnt < cir; )
 	  {
@@ -113,6 +113,8 @@ int main(void)
 		  HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, 0);
 		  HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, 0);
 		  HAL_Delay(10);
+		  cnt += 1;
+		  if(cnt > cir) break;
 
 		  //Step2
 		  HAL_GPIO_WritePin(D2_GPIO_Port, D2_Pin, 0);
@@ -120,6 +122,8 @@ int main(void)
 		  HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, 0);
 		  HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, 0);
 		  HAL_Delay(10);
+		  cnt += 1;
+		  if(cnt > cir) break;
 
 		  //Step3
 		  HAL_GPIO_WritePin(D2_GPIO_Port, D2_Pin, 0);
@@ -127,6 +131,8 @@ int main(void)
 		  HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, 1);
 		  HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, 0);
 		  HAL_Delay(10);
+		  cnt += 1;
+		  if(cnt > cir) break;
 
 		  //Step4
 		  HAL_GPIO_WritePin(D2_GPIO_Port, D2_Pin, 0);
@@ -134,8 +140,7 @@ int main(void)
 		  HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, 0);
 		  HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, 1);
 		  HAL_Delay(10);
-
-		  cnt += 4;
+		  cnt += 1;
 	  }
 
 	  cnt = 0;

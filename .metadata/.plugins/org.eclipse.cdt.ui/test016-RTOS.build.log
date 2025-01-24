@@ -1,0 +1,48 @@
+15:13:05 **** Incremental Build of configuration Debug for project test016-RTOS ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:142:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  142 |   ProgramStart("RTOS Test");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'StartTask01':
+../Core/Src/main.c:313:11: warning: implicit declaration of function 'cursor' [-Wimplicit-function-declaration]
+  313 |           cursor(0, 0);
+      |           ^~~~~~
+../Core/Src/main.c:314:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  314 |           printf("LD2 Flashed %d times(Task 1)",n1++);
+      |           ^~~~~~
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:314:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  314 |           printf("LD2 Flashed %d times(Task 1)",n1++);
+      |           ^~~~~~
+../Core/Src/main.c:314:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'StartTask02':
+../Core/Src/main.c:350:27: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  350 |                           printf("B1 Button Pressed .... %d time", bn);
+      |                           ^~~~~~
+../Core/Src/main.c:350:27: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:344:23: warning: unused variable 'state' [-Wunused-variable]
+  344 |                   int state = phase % 4;
+      |                       ^~~~~
+../Core/Src/main.c:392:19: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  392 |                   printf("=====wait to press B1=====");
+      |                   ^~~~~~
+../Core/Src/main.c:392:19: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "test016-RTOS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test016-RTOS\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test016-RTOS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test016-RTOS.elf
+ 
+arm-none-eabi-size  test016-RTOS.elf 
+arm-none-eabi-objdump -h -S test016-RTOS.elf  > "test016-RTOS.list"
+   text	   data	    bss	    dec	    hex	filename
+  22844	    116	  18444	  41404	   a1bc	test016-RTOS.elf
+Finished building: default.size.stdout
+ 
+Finished building: test016-RTOS.list
+ 
+
+15:13:05 Build Finished. 0 errors, 7 warnings. (took 740ms)
+

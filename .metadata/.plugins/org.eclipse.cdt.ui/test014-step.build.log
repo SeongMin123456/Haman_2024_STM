@@ -1,4 +1,4 @@
-17:10:33 **** Incremental Build of configuration Debug for project test014-step ****
+09:50:04 **** Incremental Build of configuration Debug for project test014-step ****
 make -j24 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
@@ -6,33 +6,33 @@ arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -D
    93 |   ProgramStart("Step Motor Control");
       |   ^~~~~~~~~~~~
 ../Core/Src/main.c:103:11: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-  103 |           printf("회전각 : "); scanf("%d",&cir);
+  103 |           printf("회전각 : "); scanf("%f",&cir);
       |           ^~~~~~
 ../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
    20 | #include "main.h"
   +++ |+#include <stdio.h>
    21 | 
 ../Core/Src/main.c:103:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
-  103 |           printf("회전각 : "); scanf("%d",&cir);
+  103 |           printf("회전각 : "); scanf("%f",&cir);
       |           ^~~~~~
 ../Core/Src/main.c:103:11: note: include '<stdio.h>' or provide a declaration of 'printf'
 ../Core/Src/main.c:103:32: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
-  103 |           printf("회전각 : "); scanf("%d",&cir);
+  103 |           printf("회전각 : "); scanf("%f",&cir);
       |                                ^~~~~
 ../Core/Src/main.c:103:32: note: include '<stdio.h>' or provide a declaration of 'scanf'
 ../Core/Src/main.c:103:32: warning: incompatible implicit declaration of built-in function 'scanf' [-Wbuiltin-declaration-mismatch]
 ../Core/Src/main.c:103:32: note: include '<stdio.h>' or provide a declaration of 'scanf'
-arm-none-eabi-gcc -o "test014-step.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test014-step\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test014-step.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc -o "test014-step.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test014-step\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test014-step.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: test014-step.elf
  
 arm-none-eabi-size  test014-step.elf 
 arm-none-eabi-objdump -h -S test014-step.elf  > "test014-step.list"
    text	   data	    bss	    dec	    hex	filename
-  18252	    112	   1976	  20340	   4f74	test014-step.elf
+  35396	    476	   1980	  37852	   93dc	test014-step.elf
 Finished building: default.size.stdout
  
 Finished building: test014-step.list
  
 
-17:10:33 Build Finished. 0 errors, 5 warnings. (took 531ms)
+09:50:05 Build Finished. 0 errors, 5 warnings. (took 772ms)
 
