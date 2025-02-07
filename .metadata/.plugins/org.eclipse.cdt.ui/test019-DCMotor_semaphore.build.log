@@ -1,0 +1,33 @@
+16:09:23 **** Incremental Build of configuration Debug for project test019-DCMotor_semaphore ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:172:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  172 |   ProgramStart("Semaphore Test - Ultrasonic & Motor & LED & UART");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'StartTask04':
+../Core/Src/main.c:625:27: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  625 |                           printf("Distance : %6.2f\r\n", distance);
+      |                           ^~~~~~
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   21 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:625:27: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  625 |                           printf("Distance : %6.2f\r\n", distance);
+      |                           ^~~~~~
+../Core/Src/main.c:625:27: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "test019-DCMotor_semaphore.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test019-DCMotor_semaphore\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test019-DCMotor_semaphore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test019-DCMotor_semaphore.elf
+ 
+arm-none-eabi-size  test019-DCMotor_semaphore.elf 
+arm-none-eabi-objdump -h -S test019-DCMotor_semaphore.elf  > "test019-DCMotor_semaphore.list"
+   text	   data	    bss	    dec	    hex	filename
+  49344	    484	  18664	  68492	  10b8c	test019-DCMotor_semaphore.elf
+Finished building: default.size.stdout
+ 
+Finished building: test019-DCMotor_semaphore.list
+ 
+
+16:09:24 Build Finished. 0 errors, 3 warnings. (took 796ms)
+

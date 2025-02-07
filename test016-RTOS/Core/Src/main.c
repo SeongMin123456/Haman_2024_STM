@@ -68,7 +68,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	mode = 1;	// motor state,	0 : stop | 1 : start
 	bn++;
-	step = 4096 / 2 * bn * 45 / 360;
+	step = 4096 / 2 * bn * 45 / 360;  // 버튼 1회 눌릴 떄 마다 45도 회전
 }
 
 void LD2Test()
