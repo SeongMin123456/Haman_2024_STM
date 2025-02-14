@@ -1,0 +1,10 @@
+09:20:21 **** Incremental Build of configuration Debug for project test_my3_bluetooth_master_slave ****
+make -j24 all 
+arm-none-eabi-size  test_my3_bluetooth_master_slave.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17792	    112	   2264	  20168	   4ec8	test_my3_bluetooth_master_slave.elf
+Finished building: default.size.stdout
+ 
+
+09:20:21 Build Finished. 0 errors, 0 warnings. (took 339ms)
+

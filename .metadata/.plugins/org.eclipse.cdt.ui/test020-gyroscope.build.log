@@ -1,0 +1,62 @@
+16:58:57 **** Incremental Build of configuration Debug for project test020-gyroscope ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  100 |   ProgramStart("Gyroscope Test");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:101:3: warning: implicit declaration of function 'i2c_init' [-Wimplicit-function-declaration]
+  101 |   i2c_init(&hi2c1);
+      |   ^~~~~~~~
+../Core/Src/main.c:102:3: warning: implicit declaration of function 'i2c_scan' [-Wimplicit-function-declaration]
+  102 |   i2c_scan();
+      |   ^~~~~~~~
+../Core/Src/main.c:104:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  104 |   printf("GY-6500 (WHO AM I) info : %02x \r\n", whoami);
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:104:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  104 |   printf("GY-6500 (WHO AM I) info : %02x \r\n", whoami);
+      |   ^~~~~~
+../Core/Src/main.c:104:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:122:5: warning: implicit declaration of function 'lcd_init' [-Wimplicit-function-declaration]
+  122 |     lcd_init();
+      |     ^~~~~~~~
+../Core/Src/main.c:165:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  165 |           sprintf(str1, "A X:%.0f Y:%.0f Z:%.0f", aX, aY, aZ);
+      |           ^~~~~~~
+../Core/Src/main.c:165:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:165:11: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:165:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:165:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  165 |           sprintf(str1, "A X:%.0f Y:%.0f Z:%.0f", aX, aY, aZ);
+      |                   ^~~~
+      |                   |
+      |                   unsigned char *
+../Core/Src/main.c:165:19: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:166:19: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  166 |           sprintf(str2, "G X:%.0f Y:%.0f Z:%.0f", gX, gY, gZ);
+      |                   ^~~~
+      |                   |
+      |                   unsigned char *
+../Core/Src/main.c:166:19: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:168:11: warning: implicit declaration of function 'lcd_printEx' [-Wimplicit-function-declaration]
+  168 |           lcd_printEx("                ",0);
+      |           ^~~~~~~~~~~
+arm-none-eabi-gcc -o "test020-gyroscope.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\test020-gyroscope\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test020-gyroscope.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test020-gyroscope.elf
+ 
+arm-none-eabi-size  test020-gyroscope.elf 
+arm-none-eabi-objdump -h -S test020-gyroscope.elf  > "test020-gyroscope.list"
+   text	   data	    bss	    dec	    hex	filename
+  39672	    476	   2068	  42216	   a4e8	test020-gyroscope.elf
+Finished building: default.size.stdout
+ 
+Finished building: test020-gyroscope.list
+ 
+
+16:58:57 Build Finished. 0 errors, 11 warnings. (took 583ms)
+
