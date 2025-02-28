@@ -1,0 +1,149 @@
+16:17:15 **** Incremental Build of configuration Debug for project Project001-WheelMortor ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:205:13: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  205 |             sprintf(comp_buf, "%s\n\0", &buf1[tail1 - 7]);
+      |             ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "string.h"
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:205:13: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  205 |             sprintf(comp_buf, "%s\n\0", &buf1[tail1 - 7]);
+      |             ^~~~~~~
+../Core/Src/main.c:205:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:205:36: warning: embedded '\0' in format [-Wformat-contains-nul]
+  205 |             sprintf(comp_buf, "%s\n\0", &buf1[tail1 - 7]);
+      |                                    ^~
+../Core/Src/main.c:208:15: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  208 |               printf("\r\nI found it%d\r\n\r\n", temp++);
+      |               ^~~~~~
+../Core/Src/main.c:208:15: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:208:15: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:208:15: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:217:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
+  217 |       HAL_UART_Receive_IT(&huart1, &dum1, 1);         // interrupt chain
+      |                                    ^~~~~
+      |                                    |
+      |                                    char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:748:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  748 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                  ~~~~~~~~~^~~~~
+../Core/Src/main.c:222:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  222 |       HAL_UART_Transmit(&huart2, &dum2, 1, 10); // terminal echo
+      |                                  ^~~~~
+      |                                  |
+      |                                  char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:225:37: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  225 |          HAL_UART_Transmit(&huart2, "\n", 1, 10); // terminal echo
+      |                                     ^~~~
+      |                                     |
+      |                                     char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:228:37: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  228 |          HAL_UART_Transmit(&huart1, buf2, tail2, 10);   // AT Command
+      |                                     ^~~~
+      |                                     |
+      |                                     char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:232:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive_IT' differ in signedness [-Wpointer-sign]
+  232 |       HAL_UART_Receive_IT(&huart2, &dum2, 1);
+      |                                    ^~~~~
+      |                                    |
+      |                                    char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:748:75: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  748 | HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                  ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:272:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  272 |   ProgramStart("Mortor test!");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:280:34: warning: pointer targets in passing argument 2 of 'UART_Start_Receive_IT' differ in signedness [-Wpointer-sign]
+  280 |   UART_Start_Receive_IT(&huart1, &dum1, 1);
+      |                                  ^~~~~
+      |                                  |
+      |                                  char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:889:77: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  889 | HAL_StatusTypeDef UART_Start_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                    ~~~~~~~~~^~~~~
+../Core/Src/main.c:281:34: warning: pointer targets in passing argument 2 of 'UART_Start_Receive_IT' differ in signedness [-Wpointer-sign]
+  281 |   UART_Start_Receive_IT(&huart2, &dum2, 1);
+      |                                  ^~~~~
+      |                                  |
+      |                                  char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:889:77: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  889 | HAL_StatusTypeDef UART_Start_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size);
+      |                                                                    ~~~~~~~~~^~~~~
+../Core/Src/main.c:289:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  289 |           printf("FF_dist : %f, FR_dist : %f, FL_dist : %f \r\n", FF_dist, FR_dist, FL_dist);
+      |           ^~~~~~
+../Core/Src/main.c:289:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:334:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  334 |           HAL_UART_Transmit(&huart1, "AT+INQ\r\n", 8, 10);
+      |                                      ^~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:745:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  745 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:205:36: warning: 'sprintf' may write a terminating nul past the end of the destination [-Wformat-overflow=]
+  205 |             sprintf(comp_buf, "%s\n\0", &buf1[tail1 - 7]);
+      |                                    ^~
+../Core/Src/main.c:205:13: note: 'sprintf' output between 2 and 101 bytes into a destination of size 100
+  205 |             sprintf(comp_buf, "%s\n\0", &buf1[tail1 - 7]);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Project001-WheelMortor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\Desktop\Project\Smart-Wheelchair\Project001-WheelMortor\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project001-WheelMortor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Project001-WheelMortor.elf
+ 
+arm-none-eabi-size  Project001-WheelMortor.elf 
+arm-none-eabi-objdump -h -S Project001-WheelMortor.elf  > "Project001-WheelMortor.list"
+   text	   data	    bss	    dec	    hex	filename
+  41824	    476	   2520	  44820	   af14	Project001-WheelMortor.elf
+Finished building: default.size.stdout
+ 
+Finished building: Project001-WheelMortor.list
+ 
+
+16:17:16 Build Finished. 0 errors, 16 warnings. (took 641ms)
+

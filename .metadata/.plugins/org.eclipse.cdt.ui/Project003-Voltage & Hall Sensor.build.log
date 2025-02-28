@@ -1,0 +1,49 @@
+15:10:50 **** Incremental Build of configuration Debug for project Project003-Voltage & Hall Sensor ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:82:17: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   82 |                 printf("입력이 확인되었습니다. (%d 회) \r\n", t++);
+      |                 ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:82:17: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   82 |                 printf("입력이 확인되었습니다. (%d 회) \r\n", t++);
+      |                 ^~~~~~
+../Core/Src/main.c:82:17: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:124:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  124 |   HAL_ADC_Start_DMA(&hadc1, &val, 1);
+      |                             ^~~~
+      |                             |
+      |                             unsigned int *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:295,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h:594:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'unsigned int *'
+  594 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef *hadc, uint32_t *pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:127:3: warning: implicit declaration of function 'ProgramStart' [-Wimplicit-function-declaration]
+  127 |   ProgramStart("Voltage Sensor");
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:149:11: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  149 |           printf("Average ADC Volt : %.3f \r\n", voltage_F);
+      |           ^~~~~~
+../Core/Src/main.c:149:11: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "Project003-Voltage & Hall Sensor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\source\repos\STM32\Project003-VoltageSensor\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project003-Voltage & Hall Sensor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c:137: multiple definition of `SystemCoreClock'; ./Core/Src/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Core/Src/system_stm32f4xx.c:137: first defined here
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c:138: multiple definition of `AHBPrescTable'; ./Core/Src/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Core/Src/system_stm32f4xx.c:138: first defined here
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c:139: multiple definition of `APBPrescTable'; ./Core/Src/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Core/Src/system_stm32f4xx.c:139: first defined here
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.o: in function `SystemInit':
+C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c:168: multiple definition of `SystemInit'; ./Core/Src/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Core/Src/system_stm32f4xx.c:168: first defined here
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.o: in function `SystemCoreClockUpdate':
+C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c:221: multiple definition of `SystemCoreClockUpdate'; ./Core/Src/system_stm32f4xx.o:C:/Users/user/source/repos/STM32/Project003-VoltageSensor/Debug/../Core/Src/system_stm32f4xx.c:221: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:65: Project003-Voltage & Hall Sensor.elf] Error 1
+"make -j24 all" terminated with exit code 2. Build might be incomplete.
+
+15:10:51 Build Failed. 6 errors, 5 warnings. (took 544ms)
+

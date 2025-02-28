@@ -1,0 +1,10 @@
+09:29:36 **** Incremental Build of configuration Debug for project Project003-Ultrasonic6 ****
+make -j24 all 
+arm-none-eabi-size  Project003-Ultrasonic6.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18048	    112	   2264	  20424	   4fc8	Project003-Ultrasonic6.elf
+Finished building: default.size.stdout
+ 
+
+09:29:36 Build Finished. 0 errors, 0 warnings. (took 230ms)
+

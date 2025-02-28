@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Project003-Ultrasonic6/Project002-Bluetooth.ioc&apos; to &apos;Project003-Ultrasonic6.ioc&apos;" description="Rename resource &apos;Project002-Bluetooth.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Project002-Bluetooth.ioc" name="Project003-Ultrasonic6.ioc" stamp="1740443329583" updateReferences="true"/>
+</session>

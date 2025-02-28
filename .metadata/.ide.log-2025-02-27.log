@@ -1,0 +1,1053 @@
+2025-02-28 10:11:29,309 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 10:11:29,332 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,333 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:29,342 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:11:31,491 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 826720584 Bytes (1073741824)
+2025-02-28 10:11:32,670 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 699000392 Bytes (1073741824)
+2025-02-28 10:11:33,584 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 737992280 Bytes (1073741824)
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 10:11:33,664 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 10:11:33,665 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 10:11:33,667 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 10:11:33,718 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 10:11:33,750 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 10:11:33,758 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 10:11:33,786 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 10:11:33,836 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 10:11:33,863 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 10:11:33,866 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 10:11:33,909 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 10:11:33,918 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 10:11:33,976 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 10:11:33,980 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 10:11:34,008 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 10:11:34,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 10:11:34,069 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 10:11:34,073 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 10:11:34,104 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 10:11:34,111 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 10:11:34,147 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 10:11:34,157 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 10:11:34,157 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 10:11:34,175 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 10:11:34,212 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 10:11:34,217 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 10:11:34,265 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 10:11:34,583 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 149mS.
+2025-02-28 10:11:34,585 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 10:11:34,691 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 10:11:35,350 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 764mS.
+2025-02-28 10:11:35,350 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 10:11:35,352 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 10:20:39,987 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 10:20:40,005 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:40,014 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:20:41,212 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 755933440 Bytes (1073741824)
+2025-02-28 10:20:42,106 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 774285568 Bytes (1073741824)
+2025-02-28 10:20:42,940 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 809410816 Bytes (1073741824)
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 10:20:43,035 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 10:20:43,036 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 10:20:43,038 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 10:20:43,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 10:20:43,166 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 10:20:43,175 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 10:20:43,203 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 10:20:43,248 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 10:20:43,274 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 10:20:43,276 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 10:20:43,316 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 10:20:43,324 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 10:20:43,380 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 10:20:43,384 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 10:20:43,420 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 10:20:43,428 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 10:20:43,480 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 10:20:43,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 10:20:43,530 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 10:20:43,538 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 10:20:43,574 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 10:20:43,582 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 10:20:43,582 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 10:20:43,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 10:20:43,620 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 10:20:43,623 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 10:20:43,668 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 10:20:43,982 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 141mS.
+2025-02-28 10:20:43,984 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 10:20:44,097 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 10:20:44,752 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 768mS.
+2025-02-28 10:20:44,753 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-28 10:20:44,758 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 10:22:24,795 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 10:22:24,810 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,811 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:24,819 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,911 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 10:22:26,927 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,928 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:26,936 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-02-28 10:22:30,433 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 712670824 Bytes (1073741824)
+2025-02-28 10:22:31,356 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 706518984 Bytes (1073741824)
+2025-02-28 10:22:32,566 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 743646672 Bytes (1073741824)
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 10:22:32,643 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 10:22:32,644 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 10:22:32,646 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 10:22:32,696 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 10:22:32,722 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 10:22:32,730 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 10:22:32,756 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 10:22:32,789 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 10:22:32,817 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 10:22:32,820 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 10:22:32,862 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 10:22:32,870 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 10:22:32,902 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 10:22:32,906 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 10:22:32,944 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 10:22:32,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 10:22:32,988 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 10:22:32,991 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 10:22:33,015 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 10:22:33,021 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 10:22:33,051 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 10:22:33,059 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 10:22:33,059 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 10:22:33,064 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 10:22:33,093 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 10:22:33,097 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 10:22:33,139 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 10:22:33,453 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 119mS.
+2025-02-28 10:22:33,455 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 10:22:33,563 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 10:22:34,227 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 772mS.
+2025-02-28 10:22:34,228 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-28 10:22:34,232 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 10:53:29,343 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 10:53:40,716 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 10:53:41,362 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 754251680 Bytes (1073741824)
+2025-02-28 10:53:42,332 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 773648288 Bytes (1073741824)
+2025-02-28 10:53:43,203 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 810874784 Bytes (1073741824)
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 10:53:43,282 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 10:53:43,282 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 10:53:43,282 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 10:53:43,330 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 10:53:43,392 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 10:53:43,408 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 10:53:43,423 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 10:53:43,457 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 10:53:43,486 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 10:53:43,486 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 10:53:43,527 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 10:53:43,533 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 10:53:43,596 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 10:53:43,612 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 10:53:43,643 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 10:53:43,643 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 10:53:43,722 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 10:53:43,722 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 10:53:43,753 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 10:53:43,758 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 10:53:43,785 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 10:53:43,785 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 10:53:43,785 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 10:53:43,800 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 10:53:43,831 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 10:53:43,831 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 10:53:43,879 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 10:53:44,191 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 156mS.
+2025-02-28 10:53:44,194 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 10:53:44,304 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 10:53:44,928 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 734mS.
+2025-02-28 10:53:44,929 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2025-02-28 10:53:44,933 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 11:16:08,322 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 752358992 Bytes (1073741824)
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 11:16:08,400 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 11:16:08,401 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 11:16:08,403 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 11:16:08,455 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 11:16:08,494 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 11:16:08,502 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 11:16:08,546 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 11:16:08,589 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 11:16:08,615 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 11:16:08,618 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 11:16:08,643 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 11:16:08,652 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 11:16:08,719 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 11:16:08,724 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 11:16:08,756 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 11:16:08,765 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 11:16:08,826 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 11:16:08,830 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 11:16:08,859 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 11:16:08,867 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 11:16:08,898 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 11:16:08,906 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 11:16:08,907 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 11:16:08,911 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 11:16:08,945 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 11:16:08,949 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 11:16:09,001 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 11:16:09,321 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 123mS.
+2025-02-28 11:16:09,323 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 11:16:09,436 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 11:16:10,082 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 758mS.
+2025-02-28 11:16:10,082 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 11:16:10,085 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 11:24:05,405 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 11:24:23,026 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 738737144 Bytes (1073741824)
+2025-02-28 11:24:24,073 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 772813816 Bytes (1073741824)
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 11:24:24,168 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 11:24:24,169 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 11:24:24,171 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 11:24:24,269 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 11:24:24,314 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 11:24:24,323 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 11:24:24,363 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 11:24:24,402 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 11:24:24,428 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 11:24:24,430 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 11:24:24,462 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 11:24:24,470 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 11:24:24,535 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 11:24:24,540 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 11:24:24,573 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 11:24:24,581 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 11:24:24,643 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 11:24:24,647 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 11:24:24,675 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 11:24:24,682 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 11:24:24,714 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 11:24:24,722 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 11:24:24,723 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 11:24:24,728 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 11:24:24,762 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 11:24:24,766 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 11:24:24,816 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 11:24:25,139 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 125mS.
+2025-02-28 11:24:25,142 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 11:24:25,249 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 11:24:25,878 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 736mS.
+2025-02-28 11:24:25,878 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 11:24:25,881 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 11:44:57,533 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 11:45:58,184 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 908266448 Bytes (1073741824)
+2025-02-28 14:03:27,504 [INFO] Gpio:277 - dependency for GPIO [ADC1, RCC, SYS, USART2]
+2025-02-28 14:04:11,820 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,46,562x1007,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-02-28 14:04:21,720 [INFO] Gpio:277 - dependency for GPIO [ADC1, RCC, SYS, USART2]
+2025-02-28 14:04:38,756 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 891287992 Bytes (1073741824)
+2025-02-28 14:04:39,595 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 687074800 Bytes (1073741824)
+2025-02-28 14:04:40,544 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 762050032 Bytes (1073741824)
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 14:04:40,620 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 14:04:40,621 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 14:04:40,623 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 14:04:40,671 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 14:04:40,702 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 14:04:40,711 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 14:04:40,739 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 14:04:40,788 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 14:04:40,824 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 14:04:40,827 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 14:04:40,859 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 14:04:40,867 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 14:04:40,930 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 14:04:40,934 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 14:04:40,963 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 14:04:40,970 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 14:04:41,021 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 14:04:41,024 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 14:04:41,055 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 14:04:41,062 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 14:04:41,099 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 14:04:41,109 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 14:04:41,109 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 14:04:41,131 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 14:04:41,173 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 14:04:41,178 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 14:04:41,226 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 14:04:41,554 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 145mS.
+2025-02-28 14:04:41,556 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 14:04:41,660 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 14:04:42,329 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 773mS.
+2025-02-28 14:04:42,329 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 14:04:42,332 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2025-02-28 15:06:29,191 [INFO] MainUpdater:2873 - connection check result : 10
+2025-02-28 15:06:29,191 [INFO] MainUpdater:2873 - connection check result : 10
+2025-02-28 15:06:29,201 [ERROR] IocParser:57 - IOException caught: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Project003-VoltageSensor.ioc (지정된 파일을 찾을 수 없습니다)
+2025-02-28 15:06:29,201 [ERROR] PeripheralListParser:95 - Something went wrong with ioc file reading: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Project003-VoltageSensor.ioc (지정된 파일을 찾을 수 없습니다)
+2025-02-28 15:06:29,201 [ERROR] RegexParser:59 - Issue caught when parsing regex: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Project003-VoltageSensor.ioc (지정된 파일을 찾을 수 없습니다)
+2025-02-28 15:06:29,417 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-02-28 15:06:29,417 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2025-02-28 15:06:29,421 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2493) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:933) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3426) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1813) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:533) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:244) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:776) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:290) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1184) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1065) ~[com.st.stm32cube.common.mx_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.10.0.202311202037/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-02-28 15:06:29,424 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-02-28 15:06:29,424 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-02-28 15:06:29,424 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-02-28 15:06:29,424 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-02-28 15:06:29,427 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2025-02-28 15:06:29,428 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-02-28 15:06:29,430 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 810511592 Bytes (1073741824)
+2025-02-28 15:06:29,431 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-02-28 15:06:29,431 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2025-02-28 15:06:29,431 [INFO] OpenFileManager:312 - Change cursor
+2025-02-28 15:06:29,435 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-02-28 15:06:29,436 [INFO] Mcu:2016 - Initializing MCU STM32F411R(C-E)Tx STM32F411RETx STM32F411RET6
+2025-02-28 15:06:29,818 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2025-02-28 15:06:29,952 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-02-28 15:06:29,952 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-02-28 15:06:29,952 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-02-28 15:06:29,952 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-02-28 15:06:29,952 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,953 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,954 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,954 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,954 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,954 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,954 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,954 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,955 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,989 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2025-02-28 15:06:29,994 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-02-28 15:06:30,223 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Channel) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC1) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2025-02-28 15:06:30,231 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2025-02-28 15:06:30,346 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 734651496 Bytes (1073741824)
+2025-02-28 15:06:30,366 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-02-28 15:06:30,366 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.100
+2025-02-28 15:06:30,367 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-02-28 15:06:30,367 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 1.9.3
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.2
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.1.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-02-28 15:06:30,367 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-02-28 15:06:30,424 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2025-02-28 15:06:30,425 [INFO] PinOutPanel:1499 - setPackage(STM32F411RETx,LQFP64)
+2025-02-28 15:06:30,515 [INFO] UtilMem:75 - Before build in PCC Used Memory: 754588216 Bytes (1073741824)
+2025-02-28 15:06:30,661 [INFO] UtilMem:75 - After build in PCC Used Memory: 797579832 Bytes (1073741824)
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,670 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,671 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,672 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,673 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-02-28 15:06:30,677 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2025-02-28 15:06:30,701 [INFO] CADModel:165 - CPN selected for project levelSTM32F411RET6
+2025-02-28 15:06:30,701 [INFO] CADModel:114 - Register for checkConnection events
+2025-02-28 15:06:30,750 [INFO] OpenFileManager:343 - Restore cursor
+2025-02-28 15:06:30,753 [INFO] ApiDb:581 - Connected to CubeFinder SQLite database (C:\Users\user\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2025-02-28 15:06:38,480 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,494 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:38,502 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-02-28 15:06:45,788 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 925008544 Bytes (1073741824)
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2025-02-28 15:06:45,871 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2025-02-28 15:06:45,872 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : hdmavalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Initvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:327 - 	 sub Args: 
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Channelvalue: DMA_CHANNEL_0
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Lockvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Lockvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Statevalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Statevalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : Parentvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : Parentvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2025-02-28 15:06:45,874 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2025-02-28 15:06:45,943 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp_save
+2025-02-28 15:06:45,980 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\license.tmp
+2025-02-28 15:06:45,997 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp_save
+2025-02-28 15:06:46,050 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\gpio.tmp
+2025-02-28 15:06:46,091 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp_save
+2025-02-28 15:06:46,122 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma.tmp
+2025-02-28 15:06:46,124 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp_save
+2025-02-28 15:06:46,165 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\dma_GV.tmp
+2025-02-28 15:06:46,174 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c_save
+2025-02-28 15:06:46,237 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_it.c
+2025-02-28 15:06:46,241 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h_save
+2025-02-28 15:06:46,268 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_it.h
+2025-02-28 15:06:46,275 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c_save
+2025-02-28 15:06:46,316 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\stm32f4xx_hal_msp.c
+2025-02-28 15:06:46,319 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp_save
+2025-02-28 15:06:46,344 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\MXTmpFiles\system.tmp
+2025-02-28 15:06:46,351 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-02-28 15:06:46,380 [INFO] CodeEngine:335 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\stm32f4xx_hal_conf.h
+2025-02-28 15:06:46,388 [WARN] IPConfigManager:3440 - IP not found : TIM
+2025-02-28 15:06:46,389 [WARN] CodeGenerator:3939 - IP not found : null
+2025-02-28 15:06:46,393 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h_save
+2025-02-28 15:06:46,434 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Inc\main.h
+2025-02-28 15:06:46,439 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c_save
+2025-02-28 15:06:46,495 [INFO] CodeEngine:279 - Generated code: C:\Users\user\source\repos\STM32\Project003-VoltageSensor\Core\Src\main.c
+2025-02-28 15:06:46,778 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 113mS.
+2025-02-28 15:06:46,780 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2025-02-28 15:06:46,895 [INFO] ConfigFileManager:1495 - The Die is : DIE431
+2025-02-28 15:06:46,897 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-02-28 15:06:46,899 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-02-28 15:06:46,900 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2025-02-28 15:06:46,902 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2025-02-28 15:06:46,905 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-02-28 15:06:46,907 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST

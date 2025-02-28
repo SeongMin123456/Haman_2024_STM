@@ -1,0 +1,10 @@
+16:03:30 **** Incremental Build of configuration Debug for project Project003-voltageHallsensor ****
+make -j24 all 
+arm-none-eabi-size  Project003-voltageHallsensor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38776	    480	   2624	  41880	   a398	Project003-voltageHallsensor.elf
+Finished building: default.size.stdout
+ 
+
+16:03:30 Build Finished. 0 errors, 0 warnings. (took 242ms)
+
